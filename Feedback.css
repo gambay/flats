@@ -1,0 +1,42 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.comment{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    float: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+p{
+    margin-bottom: 10px;
+}
+.comment img{
+    vertical-align: middle;
+}
+.userInfo{
+    vertical-align: middle;
+}
+.comment:last-child{
+    float: none;
+} 
+.leftColumn{
+    float: left;
+    width: calc(50% - 10px);
+    /* background-color: chocolate; */
+}
+.rightColumn{
+    float: right;
+    width: calc(50% - 10px);
+    /* background-color: tomato; */
+}
